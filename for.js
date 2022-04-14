@@ -58,13 +58,6 @@
 
 // 5. Naudojant ciklą penkiose eilutėse atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje).
 
-
-// PVZ
-// function rand(min, max) {
-// Return Math.floor(Math.random()*(max-min+1)+min);
-// }
-
-
 // rand = Math.floor(Math.random()*10)
 
 // for (i=0; i<=10; i++) {
@@ -72,11 +65,9 @@
 // }
 
 
-
 // /////////////////////////////////////////////////////////////////////////////////
 
 // 6. Naudojant ciklą, atspausdinti skaičius nuo 1 iki 20. Nespausdinti skaičių, kurie dalinasi iš 3.
-
 
 // var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
@@ -101,7 +92,7 @@
 // const multNum = parseInt(prompt("Enter a number : "));
 
 // for (i = 1; i <= 10; i++) {
-//   console.log(multNum + "*" + i + "=" + multNum * i);
+//   console.log(multNum + " * " + i + " = " + multNum * i);
 // }
 
 
@@ -117,7 +108,7 @@
 // var converter = 200;
 
 // for (i = 0; i <= converter; i++) {
-//   console.log(i + ' inches ' +  '= ' + (i / 2.54) + 'cm');
+//   console.log(i + ' inches ' +  '= ' + (i * 2.54) + 'cm');
 // }
 
 
@@ -134,7 +125,7 @@
 
 // var years = 10;
 // arba browser patikrinimas
-// const years = parseInt(prompt("Enter inches : "));
+// const years = parseInt(prompt("Enter year : "));
 
 
 
@@ -152,7 +143,7 @@
 // const years = parseInt(prompt("Enter years : "));
 
 
-// const years = 2004;
+// const years = 2003;
 
 // for (i = 1; i <= 1; i++) {
 //     if(years % 400 === 0 || years % 4 === 0)

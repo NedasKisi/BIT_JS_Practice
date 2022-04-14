@@ -79,7 +79,7 @@
 
 // /////////////////////////////////////////////////////////////////////////////////
 
-// 6. Parašykite funkciją, kuri priimtų skaičių ir suskaičiuotų, iš kiek sveikų skaičių jos argumentas dalijasi be liekanos (išskyrus vienetą ir patį save).*****************************************************************
+// 6. Parašykite funkciją, kuri priimtų skaičių ir suskaičiuotų, iš kiek sveikų skaičių jos argumentas dalijasi be liekanos (išskyrus vienetą ir patį save).
 
 // function printDivisors(n) {
 //      for(let i = 1; i <= Math.sqrt(n); i++) {

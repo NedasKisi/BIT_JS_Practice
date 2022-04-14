@@ -94,9 +94,17 @@
 // 7. Parašykite programą, kuri žinant mėnesio numerį n atspausdintų to mėnesio dienų kiekį d. (tarkime, kad metai yra paprastieji) (pvz. n=5, ats. d=31; n=2 ats. d=28)
 
 
+// function days(month,year) {
+//    return new Date(year, month, 0).getDate();
+// };
 
-
-
+// console.log(days(1,2022))
+// console.log(days(2,2022))
+// console.log(days(3,2022))
+// console.log(days(6,2022))
+// console.log(days(3,2022))
+// console.log(days(8,2022))
+// console.log(days(10,2022))
 
 
 // /////////////////////////////////////////////////////////////////////////////////
@@ -104,9 +112,9 @@
 // 8. Du broliai nesutaria, kuriam tvarkyti kambarį. Jie meta kauliuką. Jei iškrenta skaičius 1, 3 arba 5 – kambarį tvarko jaunėlis, jei 2, 4 arba 6 – vyresnėlis. Parašykite programą, kuri įvedus iškritusį skaičių k, ekrane rodytų pranešimą „Kambarį tvarkys jaunėlis“, arba „Kambarį tvarkys vyresnėlis“. Pasitikrinkite: kai k = 1, ekrane turi būti: Kambarį tvarkys jaunėlis. Kai k = 4, ekrane turi būti: Kambarį tvarkys vyresnėlis.
 
 
-// var diceThrow;
+// let diceThrow;
 
-// var diceThrow = Math.ceil(Math.random()*6)
+// let diceThrow = Math.ceil(Math.random()*6)
 
 // if (diceThrow === 1 || diceThrow === 3 || diceThrow===5) {
 //    console.log("Kambari tvarkys jaunėlis, nes išrideno" + ' ' + diceThrow)
@@ -134,6 +142,22 @@
 
 // 10. Petras išėjo iš namų, kai laikrodis rodė v1 valandų ir m1 minučių. Į gimnaziją Petro kelionė trunka m2 minučių. Parašykite programą, kuri ekrane parodytų pranešimą apie tai, ar Petras nepavėluos į pamoką, prasidedančią v valandų ir m minučių. Pasitikrinkite: jei v1 = 8, m1 = 29, m2 = 43, v = 9, m = 5, turi būti: Petras į pamoką pavėluos; jei v1 = 8, m1 = 29, m2 = 23, v = 9, m = 5, turi būti: Petras į pamoką nepavėluos.
 
+// let v = 9;
+// let m = 5;
 
+// function kelionePasieks(v1,m1,m2) { 
+//    let late = m2-((v * 60 + m) - (v1 * 60 + m1));
+//       if (late >= 0) {
+//       console.log(" Petras į pamoką pavėluos")
+//       } else {
+//          console.log(" Petras į pamoką nevėluos")
+//          }
+//   return late;        
+// } 
 
+//testai
 
+// kelionePasieks(8,29,43);
+// kelionePasieks(8,29,23);
+// kelionePasieks(9,29,23);
+// kelionePasieks(9,29,53);
